@@ -5,7 +5,7 @@ import EditContact from './components/contacts/EditContact';
 import Header from './components/layout/Header';
 import About from './components/pages/About';
 import NotFound from './components/pages/NotFound';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 import { Provider } from './context';
 
